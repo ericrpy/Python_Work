@@ -30,7 +30,7 @@ py.press("backspace")
 py.write("1,06")
 py.press("down")
 py.write("1,01")
-py.click(x=1342, y=646) # atribuir a mim
+py.click(x=1337, y=665) # atribuir a mim
 time.sleep(2)
 py.click(x=1108, y=470) # barra
 time.sleep(2)
@@ -76,7 +76,7 @@ py.click(x=366, y=646) # estorno credito tef
 # finalizando chamado
 # py.click(x=1285, y=607) # responsável
 time.sleep(5)
-py.click(x=1191, y=714) # atribuir a mim
+#py.click(x=1191, y=714) # atribuir a mim
 time.sleep(7)
 py.click(x=1365, y=491) # tipo de problema
 time.sleep(3)
@@ -84,10 +84,10 @@ py.click(x=1378, y=604) # n/a
 time.sleep(2)
 py.moveTo(x=362, y=420)
 time.sleep(3)
-py.click(x=1402, y=419)
+py.click(x=1337, y=665)
 py.write('0,3')
 time.sleep(2)
-py.click(x=1405, y=375) # canais
+py.click(x=1353, y=376) # canais
 time.sleep(4)
 py.click(x=1374, y=486) # tef
 time.sleep(2)
