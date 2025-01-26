@@ -8,7 +8,7 @@ py.click(x=108, y=23) # abrir a aba de tarefas
 time.sleep(12)
 py.click(x=362, y=420) # fechar aba 1
 time.sleep(3)
-py.click(x=368, y=461) # fechar aba 2
+#py.click(x=368, y=461) # fechar aba 2
 time.sleep(3)
 py.click(x=358, y=578) # abrir a tarefa
 time.sleep(10)
@@ -30,13 +30,13 @@ py.press("backspace")
 py.write("1,06")
 py.press("down")
 py.write("1,01")
-py.click(x=1337, y=665) # atribuir a mim
+py.click(x=1341, y=640) # atribuir a mim
 time.sleep(2)
 py.click(x=1108, y=470) # barra
 time.sleep(2)
-py.click(x=1055, y=384) # ...
+py.click(x=1059, y=619) # ...
 time.sleep(3)
-py.click(x=874, y=633) # toggle all
+py.click(x=918, y=633) # toggle all
 time.sleep(2)
 
 # Repetição de cliques para baixar a barra
@@ -78,9 +78,9 @@ py.click(x=366, y=646) # estorno credito tef
 time.sleep(5)
 #py.click(x=1191, y=714) # atribuir a mim
 time.sleep(7)
-py.click(x=1348, y=512) # tipo de problema
+py.click(x=1374, y=489) # tipo de problema
 time.sleep(3)
-py.click(x=1345, y=628) # n/a
+py.click(x=1335, y=597) # n/a
 time.sleep(2)
 py.click(x=1361, y=418)
 py.write('0,3')
