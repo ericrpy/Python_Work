@@ -8,7 +8,7 @@ py.click(x=108, y=23) # abrir a aba de tarefas
 time.sleep(12)
 py.click(x=362, y=420) # fechar aba 1
 time.sleep(3)
-#py.click(x=368, y=461) # fechar aba 2
+py.click(x=368, y=461) # fechar aba 2
 time.sleep(3)
 py.click(x=358, y=578) # abrir a tarefa
 time.sleep(10)
@@ -83,6 +83,7 @@ time.sleep(3)
 py.click(x=1335, y=597) # n/a
 time.sleep(2)
 py.click(x=1361, y=418)
+time.sleep(2)
 py.write('0,3')
 time.sleep(2)
 py.click(x=1353, y=376) # canais
