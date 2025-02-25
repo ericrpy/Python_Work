@@ -33,10 +33,10 @@ py.write("1,01")
 py.click(x=1341, y=640) # atribuir a mim
 time.sleep(2)
 py.click(x=1108, y=470) # barra
-time.sleep(2)
-py.click(x=1059, y=619) # ...
+time.sleep(5)
+py.click(x=1056, y=383) # ...
 time.sleep(3)
-py.click(x=918, y=633) # toggle all
+py.click(x=890, y=631) # toggle all
 time.sleep(2)
 
 # Repetição de cliques para baixar a barra

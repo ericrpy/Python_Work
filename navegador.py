@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import Select
 import time
 
 # Caminho para o ChromeDriver
-caminho_chromedriver = 'C:\\Users\\erirodrigues\\Documents\\Python\\chromedriver.exe'
+caminho_chromedriver = 'C:\\Users\\erirodrigues\\Documents\\GitHub\\Python_Pags\\chromedriver.exe'
 
 # Inicializando o navegador com o serviço
 service = Service(caminho_chromedriver)  # Passando o caminho do ChromeDriver para o Service

@@ -10,7 +10,7 @@ def testegeral ():
         py.press('enter')
         py.write('calc')
         py.press('enter')
-        py.click(x=1143, y=179)
+        py.hotkey('alt', 'f4')
     py.doubleClick(x=37, y=42)    
     time.sleep(3)
     py.click(x=1894, y=8)
